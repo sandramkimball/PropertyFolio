@@ -80,6 +80,8 @@
             // 
             // WorkOrdersBtn
             // 
+            this.WorkOrdersBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.WorkOrdersBtn.FlatAppearance.BorderSize = 0;
             this.WorkOrdersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.WorkOrdersBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.WorkOrdersBtn.Location = new System.Drawing.Point(0, 284);
@@ -92,6 +94,8 @@
             // 
             // VacanciesBtn
             // 
+            this.VacanciesBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.VacanciesBtn.FlatAppearance.BorderSize = 0;
             this.VacanciesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.VacanciesBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.VacanciesBtn.Location = new System.Drawing.Point(0, 128);
@@ -104,6 +108,8 @@
             // 
             // OwnersBtn
             // 
+            this.OwnersBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.OwnersBtn.FlatAppearance.BorderSize = 0;
             this.OwnersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OwnersBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.OwnersBtn.Location = new System.Drawing.Point(0, 180);
@@ -116,6 +122,8 @@
             // 
             // RentersBtn
             // 
+            this.RentersBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RentersBtn.FlatAppearance.BorderSize = 0;
             this.RentersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RentersBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.RentersBtn.Location = new System.Drawing.Point(0, 232);
@@ -128,6 +136,8 @@
             // 
             // TypesBtn
             // 
+            this.TypesBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.TypesBtn.FlatAppearance.BorderSize = 0;
             this.TypesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TypesBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TypesBtn.Location = new System.Drawing.Point(0, 76);
@@ -136,9 +146,13 @@
             this.TypesBtn.TabIndex = 0;
             this.TypesBtn.Text = "Property Types";
             this.TypesBtn.UseVisualStyleBackColor = true;
+            this.TypesBtn.Click += new System.EventHandler(this.PropertyTypesBtn_Click);
             // 
             // PropertiesBtn
             // 
+            this.PropertiesBtn.BackColor = System.Drawing.Color.Transparent;
+            this.PropertiesBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PropertiesBtn.FlatAppearance.BorderSize = 0;
             this.PropertiesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PropertiesBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.PropertiesBtn.Location = new System.Drawing.Point(0, 24);
@@ -146,7 +160,8 @@
             this.PropertiesBtn.Size = new System.Drawing.Size(217, 46);
             this.PropertiesBtn.TabIndex = 0;
             this.PropertiesBtn.Text = "Properties";
-            this.PropertiesBtn.UseVisualStyleBackColor = true;
+            this.PropertiesBtn.UseVisualStyleBackColor = false;
+            this.PropertiesBtn.Click += new System.EventHandler(this.PropertiesBtn_Click);
             // 
             // pictureBox1
             // 
