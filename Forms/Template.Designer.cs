@@ -1,6 +1,6 @@
-﻿namespace PropertyFolio
+﻿namespace PropertyFolio.Forms
 {
-    partial class LoginForm
+    partial class XForm
     {
         /// <summary>
         ///  Required designer variable.

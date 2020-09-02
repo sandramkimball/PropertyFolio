@@ -170,7 +170,7 @@
             this.Controls.Add(this.LogoTitle);
             this.Controls.Add(this.pictureBox1);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "Main";
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

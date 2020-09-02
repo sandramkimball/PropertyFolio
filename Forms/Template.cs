@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PropertyFolio
+namespace PropertyFolio.Forms
 {
-    public partial class LoginForm : Form
+    public partial class XForm : Form
     {
-        public LoginForm()
+        public XForm()
         {
             InitializeComponent();
         }

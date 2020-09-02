@@ -36,6 +36,7 @@
             this.PasswordInput = new System.Windows.Forms.TextBox();
             this.LoginBtn = new System.Windows.Forms.Button();
             this.CloseBtn = new System.Windows.Forms.Button();
+            this.LoginError = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,26 +91,41 @@
             this.LoginBtn.BackColor = System.Drawing.Color.AliceBlue;
             this.LoginBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LoginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.LoginBtn.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LoginBtn.Location = new System.Drawing.Point(301, 246);
+            this.LoginBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LoginBtn.Location = new System.Drawing.Point(301, 256);
             this.LoginBtn.Name = "LoginBtn";
             this.LoginBtn.Size = new System.Drawing.Size(239, 45);
             this.LoginBtn.TabIndex = 3;
             this.LoginBtn.Text = "Login";
             this.LoginBtn.UseVisualStyleBackColor = false;
+            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
             // CloseBtn
             // 
             this.CloseBtn.BackColor = System.Drawing.Color.AliceBlue;
             this.CloseBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.CloseBtn.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.CloseBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.CloseBtn.Location = new System.Drawing.Point(741, 12);
             this.CloseBtn.Name = "CloseBtn";
             this.CloseBtn.Size = new System.Drawing.Size(47, 45);
             this.CloseBtn.TabIndex = 3;
             this.CloseBtn.Text = "X";
             this.CloseBtn.UseVisualStyleBackColor = false;
+            this.CloseBtn.Click += new System.EventHandler(this.CloseBtn_Click);
+            // 
+            // LoginError
+            // 
+            this.LoginError.AutoSize = true;
+            this.LoginError.BackColor = System.Drawing.Color.Transparent;
+            this.LoginError.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.LoginError.ForeColor = System.Drawing.Color.Firebrick;
+            this.LoginError.Location = new System.Drawing.Point(301, 222);
+            this.LoginError.Name = "LoginError";
+            this.LoginError.Size = new System.Drawing.Size(224, 21);
+            this.LoginError.TabIndex = 4;
+            this.LoginError.Text = "*One or more fields are empty.";
+            this.LoginError.Visible = false;
             // 
             // LoginForm
             // 
@@ -117,6 +133,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LoginError);
             this.Controls.Add(this.CloseBtn);
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.PasswordInput);
@@ -125,6 +142,7 @@
             this.Controls.Add(this.UsernameLabel);
             this.Controls.Add(this.pictureBox1);
             this.Name = "LoginForm";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -141,6 +159,7 @@
         private System.Windows.Forms.TextBox PasswordInput;
         private System.Windows.Forms.Button LoginBtn;
         private System.Windows.Forms.Button CloseBtn;
+        private System.Windows.Forms.Label LoginError;
     }
 }
 

@@ -17,7 +17,14 @@ namespace PropertyFolio
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginForm());
+
+            Forms.LoginForm loginForm = new Forms.LoginForm();
+
+            if(loginForm.ShowDialog() == DialogResult.OK)
+            {
+                Application.Run(new Forms.MainForm());
+            }
+            
         }
     }
 }
