@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PropertyFolio.Forms
 {
-    public partial class PropertyTypeForm : Form
+    public partial class PropertiesForm : Form
     {
-        public PropertyTypeForm()
+        public PropertiesForm()
         {
             InitializeComponent();
         }
@@ -31,5 +31,6 @@ namespace PropertyFolio.Forms
         {
 
         }
+
     }
 }
