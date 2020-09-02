@@ -31,14 +31,14 @@ namespace PropertyFolio.Forms
         
         private void OwnersBtn_Click(object sender, EventArgs e)
         {
-            PropertyTypeForm propTypeForm = new PropertyTypeForm();
-            propTypeForm.Show();
+            OwnersForm ownerForm = new OwnersForm();
+            ownerForm.Show();
         }
         
         private void WorkOrdersBtn_Click(object sender, EventArgs e)
         {
-            OwnersForm ownersForm = new OwnersForm();
-            ownersForm.Show();
+            WorkOrdersForm workOrders = new WorkOrdersForm();
+            workOrders.Show();
         }
         
         private void RentersBtn_Click(object sender, EventArgs e)

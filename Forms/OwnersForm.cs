@@ -17,5 +17,15 @@ namespace PropertyFolio.Forms
             InitializeComponent();
         }
 
+        private void ViewProperty_Click(object sender, EventArgs e)
+        {
+            PropertiesForm propForm = new PropertiesForm();
+            propForm.Show();
+        }
+
+        private void CloseBtn_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
