@@ -17,5 +17,21 @@ namespace PropertyFolio.Forms
             InitializeComponent();
         }
 
+        private void ContactLlabel_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void CancelBtn_Click(object sender, EventArgs e)
+        {
+            StatusInput.Text = "Cancelled";
+        }
+        private void CompletedBtn_Click(object sender, EventArgs e)
+        {
+            StatusInput.Text = "Completed";
+        }
+        private void IncompleteBtn_Click(object sender, EventArgs e)
+        {
+            StatusInput.Text = "In Progress";
+        }
     }
 }

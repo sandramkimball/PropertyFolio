@@ -31,7 +31,7 @@ namespace PropertyFolio.Forms
         
         private void OwnersBtn_Click(object sender, EventArgs e)
         {
-            OwnersForm ownerForm = new OwnersForm();
+            A ownerForm = new A();
             ownerForm.Show();
         }
         

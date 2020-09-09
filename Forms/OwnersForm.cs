@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PropertyFolio.Forms
 {
-    public partial class OwnersForm : Form
+    public partial class A : Form
     {
-        public OwnersForm()
+        public A()
         {
             InitializeComponent();
         }
@@ -26,6 +26,11 @@ namespace PropertyFolio.Forms
         private void CloseBtn_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void SearchLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

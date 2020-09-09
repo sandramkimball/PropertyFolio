@@ -17,4 +17,5 @@ C:\Users\Sandra\Source\Repos\sandramkimball\PropertyFolio\obj\Debug\netcoreapp3.
 C:\Users\Sandra\Source\Repos\sandramkimball\PropertyFolio\obj\Debug\netcoreapp3.1\PropertyFolio.dll
 C:\Users\Sandra\Source\Repos\sandramkimball\PropertyFolio\obj\Debug\netcoreapp3.1\PropertyFolio.pdb
 C:\Users\Sandra\Source\Repos\sandramkimball\PropertyFolio\obj\Debug\netcoreapp3.1\PropertyFolio.genruntimeconfig.cache
-C:\Users\Sandra\Source\Repos\sandramkimball\PropertyFolio\obj\Debug\netcoreapp3.1\PropertyFolio.Forms.OwnersForm.resources
+C:\Users\Sandra\Source\Repos\sandramkimball\PropertyFolio\obj\Debug\netcoreapp3.1\PropertyFolio.Forms.A.resources
+C:\Users\Sandra\Source\Repos\sandramkimball\PropertyFolio\obj\Debug\netcoreapp3.1\PropertyFolio.Forms.WorkOrdersForm.resources
